@@ -5,7 +5,7 @@ dnl please read gstreamer/docs/random/autotools before changing this file
 dnl initialize autoconf
 dnl releases only do -Wall, git and prerelease does -Werror too
 dnl use a three digit version number for releases, and four for git/pre
-AC_INIT([GStreamer Plug-ins], [1.12.0], [https://github.com/rockchip-linux/gstreamer-rockchip], [gstreamer-rockchip])
+AC_INIT([GStreamer Plug-ins], [1.10.0], [https://github.com/rockchip-linux/gstreamer-rockchip], [gstreamer-rockchip])
 
 AG_GST_INIT
 
@@ -46,7 +46,7 @@ AG_GST_LIBTOOL_PREPARE
 AS_LIBTOOL(GST, 801, 0, 801)
 
 dnl *** required versions of GStreamer stuff ***
-GST_REQ=1.12.0
+GST_REQ=1.10.0
 GSTPB_REQ=1.10.0
 
 dnl *** autotools stuff ****
@@ -407,7 +407,7 @@ AG_GST_CHECK_FEATURE(KMS, [drm/kms libraries], kms, [
 translit(dnm, m, l) AM_CONDITIONAL(USE_DRMROCKCHIP, true)
 AG_GST_CHECK_FEATURE(DRMROCKCHIP, [rockchip drm/kms libraries], drmrockchip, [
   PKG_CHECK_MODULES([X11], [x11], HAVE_X11=yes, HAVE_X11=no)
-  PKG_CHECK_MODULES([DRMROCKCHIP], [libdrm_rockchip],
+  PKG_CHECK_MODULES([DRMROCKCHIP], [libdrm],
     HAVE_DRMROCKCHIP=yes, HAVE_DRMROCKCHIP=no)
 ])
 
