@@ -140,6 +140,67 @@ gstreamer1.0-rockchip (1.14-1) testing; urgency=medium
 
  -- Randy Li <randy.li@rock-chips.com>  Fri, 27 Apr 2018 02:09:47 +0000
 
+gstreamer1.0-rockchip (1.10-5ayufan12) testing; urgency=medium
+
+  * Compile against bionic
+
+ -- Kamil Trzciński <ayufan@ayufan.eu>  Sun, 17 Dec 2017 22:40:39 +0100
+
+gstreamer1.0-rockchip (1.10-5ayufan11) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Mon, 11 Sep 2017 11:44:36 +0200
+
+gstreamer1.0-rockchip (1.10-5ayufan10) xenial; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Fri, 25 Aug 2017 15:25:25 +0200
+
+gstreamer1.0-rockchip (1.10-5ayufan9) artful; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Tue, 04 Jul 2017 23:21:06 +0200
+
+gstreamer1.0-rockchip (1.10-5ayufan8) artful; urgency=medium
+
+  * Automated release
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Tue, 04 Jul 2017 23:19:56 +0200
+
+gstreamer1.0-rockchip (1.10-5ayufan7) artful; urgency=medium
+
+  * add build dependencies
+  * downgrade to GStreamer 1.8.x
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Tue, 04 Jul 2017 22:28:30 +0200
+
+gstreamer1.0-rockchip (1.10-5ayufan5) xenial; urgency=medium
+
+  * add pkg-config
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:52:15 +0000
+
+gstreamer1.0-rockchip (1.10-5ayufan4) xenial; urgency=medium
+
+  * include submodules source code into tree
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 22:25:21 +0000
+
+gstreamer1.0-rockchip (1.10-5ayufan3) xenial; urgency=medium
+
+  * add git-core
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 21:50:47 +0000
+
+gstreamer1.0-rockchip (1.10-5ayufan1) xenial; urgency=medium
+
+  * Bump version
+
+ -- Kamil Trzcinski <ayufan@ayufan.eu>  Wed, 14 Jun 2017 21:29:45 +0000
+
 gstreamer1.0-rockchip (1.10-5) testing; urgency=medium
 
   [ Jacob Chen ]
